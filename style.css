@@ -6,9 +6,21 @@ h1{text-align: center;
 }
 
 img{
- width: 358px;
+ width: 232px;
  height: auto;   
 }
 h2{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.My-intrest{background-color: aquamarine;}
+
+
+.button {background-color: crimson}
+
+ .image-grid{display: grid;
+
+    grid-template-rows: repeat(2  1fr)
+    gap 5px
+    
+    ;}
+
