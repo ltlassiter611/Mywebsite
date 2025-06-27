@@ -1,26 +1,39 @@
 body {
-background-color: olive;
+background: linear-gradient(to right, #d4a406,#db1616 );
+
+padding: 20px;
+
 }
+
 h1{text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img{
- width: 232px;
- height: auto;   
+ width: 202px;
+ height: auto;
+ margin: 10px;
 }
+
+.image-grid {
+display: grid;
+}
+
+
+
+
+
 h2{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.My-intrest{background-color: aquamarine;}
 
 
-.button {background-color: crimson}
-
- .image-grid{display: grid;
-
-    grid-template-rows: repeat(2  1fr)
-    gap 5px
+.button {background-color: rgb(201, 174, 24)
+ 
     
-    ;}
+}
+     
+
+
+
 
